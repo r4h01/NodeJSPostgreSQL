@@ -40,7 +40,7 @@ In this tutorial we create a first folder called "first_server" and from the com
 
 After that you can create a index.js file. \
 We will use a module called HTTP for creating a server. \
-Modules in node represent packages of code that allow us to add certain features to our JavaScript node application, but in case of HTTP we don't need to install It because is a core model. \
+Modules in node represent packages of code that allow us to add certain features to our JavaScript node application, but in case of HTTP we don't need to install It because is a core model.
 
 We can write:
 > const http = require('http');
@@ -48,3 +48,30 @@ We can write:
 HTTP stands for Hypertext Transfer Protocol, and it's a standard for transferring data and communicating across the Web.
 
 Move to the ./first_server/index.js for the full code.
+REMEMBER for run the server you can write:
+>node index
+
+
+# ES6
+
+Node allows to use ES6 syntax.\
+This syntax introduce new feature to JavaScript like error functions and backtick template.
+One example is the arrow function, the old syntax was :
+> function( ) { };
+
+while the arrow function is:
+>( ) => { };
+
+# Nodemon
+Nodemon allows to automatically restart our node server whenever you update application
+> nom install nodemon --save-dev
+
+-dev is because we will use It in a developement mode.\
+You need to add in the package-json file and ad a new key call "dev":"nodemon" in the script part:
+````diff
+"scripts": {\
+"test": "echo \\"Error: no test specified\\" && exit 1",\
++ "dev":"nodemon"
+}
+````
+
