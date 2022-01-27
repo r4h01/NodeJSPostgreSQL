@@ -61,7 +61,7 @@ while the arrow function is:
 
 # Nodemon
 Nodemon allows to automatically restart our node server whenever you update application
-> nom install nodemon --save-dev
+> npm install nodemon --save-dev
 
 -dev is because we will use It in a developement mode.\
 You need to add in the package-json file and ad a new key call "dev":"nodemon" in the script part:
