@@ -1,7 +1,4 @@
 # NodeJSPostgreSQL
-
-# Node
-
 Node is designed to build network applications, It use client-server architecture where a client runs an application that sends and receives data to be processed by a server.
 
 ![Getting Started](./images/node.js-architecture.png)
@@ -69,9 +66,10 @@ Nodemon allows to automatically restart our node server whenever you update appl
 -dev is because we will use It in a developement mode.\
 You need to add in the package-json file and ad a new key call "dev":"nodemon" in the script part:
 ````diff
-"scripts": {\
-"test": "echo \\"Error: no test specified\\" && exit 1",\
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
 + "dev":"nodemon"
 }
 ````
 
+**--Under construction--**
