@@ -64,7 +64,7 @@ Nodemon allows to automatically restart our node server whenever you update appl
 > npm install nodemon --save-dev
 
 -dev is because we will use It in a developement mode.\
-You need to add in the package-json file and ad a new key call "dev":"nodemon" in the script part:
+You need to add in the package-json file "dev":"nodemon" in the script section:
 ````diff
 "scripts": {
 "test": "echo \"Error: no test specified\" && exit 1",
